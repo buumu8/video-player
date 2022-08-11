@@ -62,12 +62,12 @@ video {
   display: flex;
   justify-content: space-between;
   opacity: 0;
-  transition: opacity 0.5s ease-out 0s;
+  transition: opacity 0.5s ease-out 2s;
 }
 
 .show-controls:hover .controls-container {
   opacity: 1;
-  transition: all 0.2s ease-out 2s;
+  transition: all 0.2s ease-out 0s;
 }
 
 .control-group {
